@@ -72,3 +72,30 @@
 
     "custom"
 ;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Roboto+Mono&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+}
+
+.header__brand > a {
+  font-size: 1.1rem;
+}
+
+nav.navigation a {
+  font-size: 1.0rem;
+}
+
+code {
+  font-size: 1rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.item__description, .item__description .article__content {
+  font-size: 1.0rem;
+}
+
+ul.toc--ellipsis > li {
+  white-space: normal;
+}

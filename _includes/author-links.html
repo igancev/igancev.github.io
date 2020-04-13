@@ -62,7 +62,7 @@
 
     {%- if _author.telegram -%}
       <li title="{{ _locale_string_follow | replace: '[NAME]', 'Telegram' }}">
-        <a class="button button--circle telegram-button" itemprop="sameAs" href="https://t.me/{{ _author.telegram }}" target="_blank">
+        <a class="button button--circle telegram-button" itemprop="sameAs" href="{{ _author.telegram }}" target="_blank">
           <div class="icon">{%- include svg/icon/social/telegram.svg -%}</div>
         </a>
       </li>
