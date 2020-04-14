@@ -324,7 +324,7 @@ exec --no-startup-id nitrogen --restore; sleep 1; compton -b
 font pango:Ubuntu:style=Medium 10
 ```
 
-### Пересос бара наверх
+### Перенос бара наверх
 
 В секцию bar добавим строку position top, и перезапустим i3 (mod+Shift+r)
 
