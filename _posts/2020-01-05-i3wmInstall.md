@@ -1,5 +1,7 @@
 ---
 title: Установка и настройка i3wm на arch linux
+excerpt: Критерии выбора оконного менеджера i3wm, установка на arch linux, и настройка
+keywords: Установка i3wm i3 настройка i3wm i3 arch linux
 key: i3wmInstall
 tags: Linux Arch i3wm
 slug: installing-and-configuring-i3wm-on-arch-linux

@@ -1,5 +1,7 @@
 ---
 title: Первичная настройка Arch Linux
+excerpt: В данной статье я опишу действия и настройки, которые выполняю сразу после установки Arch Linux.
+keywords: Arch Linux первичная настройка после установки first settings
 key: settingsArch
 tags: Linux Arch
 slug: initial-configuration-of-arch-linux

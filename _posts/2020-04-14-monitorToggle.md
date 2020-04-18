@@ -1,5 +1,7 @@
 ---
-title: Подключение и отключение дополнительного монитора i3wm
+title: i3wm подключение и отключение дополнительного монитора
+excerpt: Напишем bash скрипт для i3wm, который будет помогать с подключением и отключением второго монитора, а также повесим его на горячую клавишу.
+keywords: i3 i3wm дополнительный монитор монитор linux arch bash горячая клавиша
 key: i3wmMonitorConnect
 tags: Linux i3wm Bash
 slug: connecting-and-disabling-additional-i3wm-monitor

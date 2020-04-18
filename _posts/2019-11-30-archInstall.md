@@ -1,5 +1,7 @@
 ---
 title: Установка Arch Linux
+excerpt: Руководство по установке Arch Linux на виртуальную машину, ПК, или ноутбук для новичков
+keywords: установка arch linux install
 key: archInstall
 tags: Linux Arch
 slug: install-arch-linux
