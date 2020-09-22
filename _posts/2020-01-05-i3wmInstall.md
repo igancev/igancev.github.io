@@ -345,7 +345,7 @@ mkdir -p ~/.config/picom && \
 ### Цветовая температура экрана
 
 Регулировать автоматическое переключение цветовой гаммы в более теплые тона
-будем программой `redshift`. Подробнее [о redshift ней на archwiki](https://wiki.archlinux.org/index.php/Redshift_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)).
+будем программой `redshift`. Подробнее [о redshift на archwiki](https://wiki.archlinux.org/index.php/Redshift_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)).
 Я же буду краток. Ставим на автозагрузку в конфиг i3wm команду:
 
 ```bash
