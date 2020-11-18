@@ -358,6 +358,49 @@ exec --no-startup-id redshift -b 1.0:0.7 -t 6500:3200 -l 45:39
 - -l 45:39 укороченные координаты местонахождения latitude:longitude
 (ширина:долгота). [Узнать свои координаты](https://www.latlong.net)
 
+### Звук
+
+Если не установили [на этапе первичной настройки arch linux](/2019-12-15-initial-configuration-of-arch-linux),
+то установим сейчас графическую утилиту для настройки звука `pavucontrol`
+
+```bash
+sudo pacman -S pavucontrol
+```
+
+![Графическая утилита для настройки звука в linux pavucontrol](/assets/articles/settingsArch/pavucontrol.png)
+
+### Bluetooth
+
+Для того, чтобы работал bluetooth, необходимо установить ряд утилит
+
+```bash
+sudo pacman -S bluez bluez-utils pulseaudio-bluetooth blueman
+```
+
+из которых `blueman` - графическая утилита
+
+![Графическая утилита для настройки bluetooth в linux blueman](/assets/articles/i3wmInstall/blueman.png)
+
+Для ее запуска наберем в rofi или dmenu `blueman-applet`, после чего увидим в
+трее иконку bluetooth с выпадающим по клику контекстным меню.
+
+А кому по душе больше настройка bluetooth из командной строки необходимо
+набрать команду `bluetoothctl`, и затем `help`.
+
+Но прежде чем подключать устройства, проверим запущена ли у нас служба
+`bluetooth.service`, и запустим, если не запущена:
+
+```bash
+# проверка
+sudo systemctl status bluetooth.service
+
+# запуск
+sudo systemctl start bluetooth.service
+
+# включение службы для автозапуска
+sudo systemctl enable bluetooth.service
+```
+
 ### Num Lock
 
 Я привык, что в обычном состоянии на клавиатуре Num Lock включен. В i3 же
