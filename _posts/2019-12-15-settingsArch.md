@@ -135,11 +135,21 @@ yay -S aur/sublime-text-dev
 
 yay заботливо склонирует за нас и соберет программу.
 
+## Звук
+
 В системе по умолчанию не будет работать звук. Установим звуковой сервер
 
 ```bash
 sudo pacman -S pulseaudio
 ```
+
+а также (на будущее) графическую утилиту для настройки звука `pavucontrol`
+
+```bash
+sudo pacman -S pavucontrol
+```
+
+![Графическая утилита для настройки звука в linux pavucontrol](/assets/articles/settingsArch/pavucontrol.png)
 
 ## Что дальше
 
