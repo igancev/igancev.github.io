@@ -2,7 +2,7 @@
 title: Настройка раскладки клавиатуры в i3wm - это просто!
 excerpt: Рассмотрим несколько способов настройки и управления раскладкой клавиатуры в оконном менеджере i3, а если быть точнее, то в xorg
 keywords: i3wm, i3, раскладка клавиатуры, keyboard layout i3wm
-tags: i3wm linux
+tags: i3wm linux Xorg
 slug: i3wm-keyboard-layout
 ---
 
