@@ -234,3 +234,8 @@ BACKSPACE="guess"
 - [X keyboard extension](https://wiki.archlinux.org/title/X_keyboard_extension)
 - [Linux console (Русский)/Keyboard configuration (Русский)](https://wiki.archlinux.org/title/Linux_console_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)/Keyboard_configuration_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)) / [Linux console/Keyboard configuration (EN)](https://wiki.archlinux.org/title/Linux_console/Keyboard_configuration)
 - [Xorg InputClass section config documentation](https://www.x.org/releases/current/doc/man/man5/xorg.conf.5.xhtml#heading9)
+
+## Комментарии
+
+Если вы заметили неточность, знаете больше способов, у вас есть вопросы, или просто хотите это обсудить,
+то [комментарии к данной статье можно оставить под постом в телеграме](https://t.me/igancev_ru/12).
