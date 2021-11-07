@@ -1,6 +1,15 @@
 header:
   - titles:
-      # @start locale config
+      ru: Блог
+      en: &EN       Blog
+      en-GB: *EN
+      en-US: *EN
+      en-CA: *EN
+      en-AU: *EN
+
+    url: /
+
+  - titles:
       ru      :           Архив
       en      : &EN       Archive
       en-GB   : *EN
@@ -10,13 +19,33 @@ header:
 
     url: /archive
 
-#  - titles:
-#      # @start locale config
-#      ru      :           Автор
-#      en      : &EN       Author
-#      en-GB   : *EN
-#      en-US   : *EN
-#      en-CA   : *EN
-#      en-AU   : *EN
-#      # @end locale config
-#    url: /me
+  - titles:
+      ru: Автор
+      en: &EN       Author
+      en-GB: *EN
+      en-US: *EN
+      en-CA: *EN
+      en-AU: *EN
+
+    url: /me
+
+  - titles:
+      ru: Поддержка
+      en: &EN       Support
+      en-GB: *EN
+      en-US: *EN
+      en-CA: *EN
+      en-AU: *EN
+
+    url: /support
+
+  - titles:
+        ru: RSS
+        en: &EN       RSS
+        en-GB: *EN
+        en-US: *EN
+        en-CA: *EN
+        en-AU: *EN
+
+    url: /feed.xml
+
