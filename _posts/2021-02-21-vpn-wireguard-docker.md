@@ -124,6 +124,8 @@ apt install docker-compose
 
 ### Подготовка конфигов
 
+#### Директория конфигов
+
 Создадим, например в домашнем каталоге, директорию `~/wireguard`, где будем хранить конфигурационные файлы,
 и сразу внутри нее директорию `~/wireguard/config`, которую будем монтировать внутрь контейнера
 
@@ -131,19 +133,37 @@ apt install docker-compose
 mkdir -p ~/wireguard/config
 ```
 
+#### docker-compose.yml
+
 Далее создадим файл `~/wireguard/docker-compose.yml`, в который скопируем содержимое
-[из документации](https://github.com/linuxserver/docker-wireguard#docker-compose-recommended)
+[из документации](https://github.com/linuxserver/docker-wireguard#docker-compose-recommended-click-here-for-more-info)
 используемого docker образа
 
 ```bash
 vim ~/wireguard/docker-compose.yml
 ```
 
+В скопированном содержимом внесем некоторые изменения:
+
+- Переменной окружения `SERVERURL` вместо текущего `wireguard.domain.com`
+  нужно присвоить значение `auto`, или **`ip адреса вашего виртуального сервера`**.
+
+- Переменной окружения `PEERS` нужно присвоить достаточное количество клиентов,
+  которыми вы планируете пользоваться VPN.
+  К примеру, если мы планируем подключаться
+  с ноутбука, 2-х смартфонов и роутера (4 устройства), то установим `PEERS=4`
+
+- Монтируемый каталог `/path/to/appdata/config` из секции `volume` необходимо
+  заменить на ранее созданную директорию `~/wireguard/config`
+
+**Итоговый файл будет выглядеть так:**
+
 ```yml
+---
 version: "2.1"
 services:
   wireguard:
-    image: ghcr.io/linuxserver/wireguard
+    image: lscr.io/linuxserver/wireguard
     container_name: wireguard
     cap_add:
       - NET_ADMIN
@@ -152,14 +172,14 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
-      - SERVERURL=wireguard.domain.com #optional
+      - SERVERURL=auto #optional
       - SERVERPORT=51820 #optional
-      - PEERS=1 #optional
+      - PEERS=4 #optional
       - PEERDNS=auto #optional
       - INTERNAL_SUBNET=10.13.13.0 #optional
       - ALLOWEDIPS=0.0.0.0/0 #optional
     volumes:
-      - /path/to/appdata/config:/config
+      - ~/wireguard/config:/config
       - /lib/modules:/lib/modules
     ports:
       - 51820:51820/udp
@@ -168,20 +188,11 @@ services:
     restart: unless-stopped
 ```
 
-Внесем в него некоторые изменения:
+На этом подготовка конфигурации окончена.
 
-- Переменной окружения `SERVERURL` вместо текущего `wireguard.domain.com`
-  нужно присвоить значение **ip адреса вашего виртуального сервера**
+### Запуск
 
-- Переменной окружения `PEERS` нужно присвоить достаточное количество клиентов,
-  которыми вы планируете пользоваться VPN.
-  К примеру, если мы планируем подключаться
-  с ноутбука, 2-х смартфонов и роутера (4 устройства), то установим `PEERS=4`
-
-- Монтируемый каталог `/path/to/appdata/config` из секции `volume` необходимо
-заменить на ранее созданную директорию `~/wireguard/config`
-
-После чего наша конфигурация готова. Создадим и запустим контейнер
+Создадим и запустим контейнер
 
 ```bash
 cd ~/wireguard
@@ -209,7 +220,7 @@ CONTAINER ID        IMAGE                   COMMAND             CREATED         
 лишь поставить клиент в один клик из магазина приложений
 
 - [Google play](https://play.google.com/store/apps/details?id=com.wireguard.android)
-- [App Store](https://apps.apple.com/us/app/wireguard/id1451685025)
+- [App Store](https://itunes.apple.com/us/app/wireguard/id1441195209?ls=1&mt=8)
 - [F-droid](https://f-droid.org/en/packages/com.wireguard.android/)
 
 и отсканировать `qr код`.
@@ -387,7 +398,7 @@ docker rm wireguard
 ###  Удаление образа
 
 ```bash
-docker rmi linuxserver/wireguard
+docker rmi lscr.io/linuxserver/wireguard
 ```
 
 ###  Удаление директории с конфигами
