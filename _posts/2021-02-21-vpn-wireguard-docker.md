@@ -12,6 +12,10 @@ slug: vpn-wireguard-docker
 
 <!--more-->
 
+**UPD:** Ввиду возросшего спроса на VPN я написал статью с [упрощенной инструкцией для менее опытных пользователей](/2022-03-13-simple-and-fast-install-vpn-wireguard-docker),
+позволяющую с минимумом телодвижений сделать то же самое.
+{:.success}
+
 ## Почему Wireguard и Docker
 
 `Wireguard` современный, кроссплатформенный, безопасный, высокопроизводительный и простой в настройке
@@ -257,7 +261,7 @@ docker exec -it wireguard /app/show-peer 1
 
 ![Скриншот с сайта 2ip.ru](/assets/articles/vpn-wireguard-docker/2ipru.png)
 
-## Десктоп
+## ПК (Desktop)
 
 ### Конфиги подключения
 
