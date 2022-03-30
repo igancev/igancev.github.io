@@ -7,6 +7,8 @@ tags: linux, wifi, manjaro, i3wm, arch linux
 slug: wifi-device-not-managed-not-ready
 ---
 
+<img alt="Фотография, брусок дерева вставлен в землю, вокруг зеленая трава. На бруске нарисована иконка wifi, надпись no wifi zone, рядом лежит лопата" src="/assets/articles/wifi-device-not-managed-not-ready/wifi-not-work.jpg"/>
+
 Решение проблемы, когда после пробуждения из спящего режима, на ОС на базе GNU/Linux не поднимается wifi. 
 Wifi сетей не видно, и в трее отображаются ошибки **device not managed**, **not ready**
 <!--more-->
