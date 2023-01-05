@@ -251,7 +251,7 @@ docker-compose ps
 
 Установим [Traccar Client из Google play](https://play.google.com/store/apps/details?id=org.traccar.client).
 
-![Мобильное приложение traccar client под android](/assets/articles/traccar/traccar-client-android.jpg)
+<img class="image image--xl" alt="Мобильное приложение traccar client под android" src="/assets/articles/traccar/traccar-client-android.jpg"/>
 
 Нас интересуют в первую очередь настройки:
 - `URL сервера`, вводим `http://ip-адрес-вашего-сервера:5055`. Порт `5055` открыт на сервере,
@@ -292,7 +292,7 @@ docker-compose ps
 На старте приложение попросит ввести адрес вашего сервера, которым оно будет управлять. Вводим `http://ip-адрес-сервера`,
 далее логин и пароль администратора. Увидим уже знакомый интерфейс в миниатюре:
 
-![Мобильное приложение traccar manager](/assets/articles/traccar/traccar-manager-client.jpg)
+<img class="image image--xl" alt="Мобильное приложение traccar manager под android" src="/assets/articles/traccar/traccar-manager-client.jpg"/>
 
 ## Нотификации в телеграм по гео зонам
 
