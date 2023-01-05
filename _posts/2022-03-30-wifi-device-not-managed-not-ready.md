@@ -3,7 +3,7 @@ title: Не работает wifi после пробуждения из спя�
 excerpt: Решение проблемы, когда после пробуждения из спящего режима на ОС на базе GNU/Linux не поднимается wifi. Wifi сетей не видно, и в трее отображаются ошибки "device not managed", "not ready"  
 keywords: device not managed, not ready, linux, wifi, arch linux, manjaro, i3wm
 key: wifi-device-not-managed-not-ready
-tags: linux, wifi, manjaro, i3wm, arch linux
+tags: wifi manjaro i3wm arch linux
 slug: wifi-device-not-managed-not-ready
 ---
 
