@@ -170,6 +170,7 @@ services:
       MYSQL_RANDOM_ROOT_PASSWORD: 1
     volumes:
       - traccar-mysql-volume:/var/lib/mysql
+
 volumes:
   traccar-mysql-volume:
 ```
