@@ -99,6 +99,9 @@ slug: tracking-geo-coordinates-with-traccar
 Я же в качестве примера буду использовать арендованный VPS с `Ubuntu 20.04.5 LTS` на борту, и далее все примеры
 будут адаптированы именно к ubuntu.
 
+Арендовать недорогой и надежный VPS для личных нужд можно [тут](https://firstbyte.ru/?from=108250).
+{:.success}
+
 ### Установка Docker
 
  Следуем [инструкциям по установке на сайте докера](https://docs.docker.com/engine/install/#server) 
