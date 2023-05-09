@@ -5,6 +5,7 @@ keywords: Установка i3wm i3 настройка i3wm i3 arch linux
 key: i3wmInstall
 tags: Linux Arch i3wm
 slug: installing-and-configuring-i3wm-on-arch-linux
+mainImage: /assets/articles/i3wmInstall/i3-screen.png
 ---
 
 Итак, мы установили arch, базово настроили систему,

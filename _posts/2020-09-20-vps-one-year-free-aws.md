@@ -4,6 +4,7 @@ excerpt: Зарегистрируем аккаунт на Amazon и создад
 keywords: vps, aws, free, vds, amazon, ec2, free tier, бесплатный сервер, vps бесплатно, свой vpn
 tags: vps linux free server amazon aws ec2
 slug: free-vps-for-one-year-aws
+mainImage: /assets/articles/aws-free/create-new-aws-account.png
 ---
 
 Это **не** реклама amazon и их облачных сервисов. Обмана и моей

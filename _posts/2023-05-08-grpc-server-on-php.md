@@ -5,6 +5,7 @@ keywords: php, grpc, grpc server, roadrunner, spiral framework, docker, grpc с�
 key: grpc-server-on-php
 tags: php grpc roadrunner spiral docker xdebug
 slug: grpc-server-on-php
+mainImage: /assets/articles/php-grpc-server/php-grpc-server.png
 ---
 
 ![Логотипы php, spiral, grpc, roadrunner и docker](/assets/articles/php-grpc-server/php-grpc-server.png)

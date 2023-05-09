@@ -5,6 +5,7 @@ keywords: gps, gps monitoring, gps tracking, traccar, gps мониторинг
 key: tracking-geo-coordinates-with-traccar
 tags: Traccar Docker Linux Telegram RaspberryPi
 slug: tracking-geo-coordinates-with-traccar
+mainImage: /assets/articles/traccar/traccar-intro.png
 ---
 
 Речь пойдет про свободную платформу "Traccar". О том, как развернуть серверную часть на своем железе или на VPS,

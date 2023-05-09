@@ -4,6 +4,7 @@ excerpt: Установим и настроим Wireguard VPN на собств�
 keywords: linux, vpn, wireguard, docker, linuxserver, docker-wireguard, linuxserver/docker-wireguard, vps, vds, server, ubuntu
 tags: linux vpn wireguard docker vps server ubuntu
 slug: vpn-wireguard-docker
+mainImage: /assets/articles/vpn-wireguard-docker/wiredocker.png
 ---
 
 <img alt="Логотип wireguard и docker" src="/assets/articles/vpn-wireguard-docker/wiredocker.png"/>

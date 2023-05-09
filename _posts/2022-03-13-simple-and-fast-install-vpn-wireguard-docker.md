@@ -4,6 +4,7 @@ excerpt: Разворачиваем в одну команду Wireguard VPN н�
 keywords: linux, vpn, wireguard, docker, linuxserver, docker-wireguard, linuxserver/docker-wireguard, vps, vds, server, ubuntu
 tags: linux vpn wireguard docker vps server ubuntu
 slug: simple-and-fast-install-vpn-wireguard-docker
+mainImage: /assets/articles/simple-and-fast-install-vpn-wireguard-docker/simple-fast-vpn-wireguard-docker.png
 ---
 
 ![Иконка смартфона с wireguard, vpn, и иконка сервера с иконкой докера](/assets/articles/simple-and-fast-install-vpn-wireguard-docker/simple-fast-vpn-wireguard-docker.png)

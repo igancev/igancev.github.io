@@ -5,6 +5,7 @@ keywords: установка arch linux install
 key: archInstall
 tags: Linux Arch
 slug: install-arch-linux
+mainImage: /assets/articles/archInstall/dhcpcd-enp0s3.png
 ---
 
 Статья для тех, кто устанавливает Arch на виртуалку, стационарный ПК или,

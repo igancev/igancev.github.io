@@ -5,6 +5,7 @@ keywords: Arch Linux первичная настройка после устан
 key: settingsArch
 tags: Linux Arch
 slug: initial-configuration-of-arch-linux
+mainImage: /assets/articles/settingsArch/pacman-colors.png
 ---
 
 В данной статье я опишу действия, которые выполняю после установки системы.

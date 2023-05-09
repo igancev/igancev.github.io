@@ -5,6 +5,7 @@ keywords: alacritty эмулятор терминала терминал
 key: alacritty
 tags: Linux Alactitty
 slug: terminal-emulator-alacritty
+mainImage: /assets/articles/alacritty/alacritty.png
 ---
 
 <img alt="Логотип alacritty" class="image image--md" src="/assets/articles/alacritty/alacritty-term-scanlines.png"/>

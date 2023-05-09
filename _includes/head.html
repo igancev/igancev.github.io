@@ -7,6 +7,17 @@
 
 <meta name="description" content="{%- if page.excerpt -%}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 160 }}{%- else -%}{{ site.description }}{%- endif -%}">
 
+<meta property="og:title" content="{%- if __return -%}{{ __return }} - {{ site.title }}{%- else -%}{{ site.title }}{%- endif -%}" />
+<meta property="og:description" content="{%- if page.excerpt -%}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 160 }}{%- else -%}{{ site.description }}{%- endif -%}">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{%- include snippets/page-url.html -%}" />
+<meta property="og:site_name" content="igancev.ru blog">
+{%- if page.mainImage -%}
+<meta property="og:image" content="https://igancev.ru{{ page.mainImage | strip_html | strip_newlines | strip }}" />
+{%- else -%}
+<meta property="og:image" content="https://igancev.ru/assets/me/igancev-telegram-photo.jpg" />
+{%- endif -%}
+
 {%- if page.keywords -%}
 <meta name="keywords" content="{{ page.keywords | strip_html | strip_newlines | strip | truncate: 160 }}">
 {%- endif -%}

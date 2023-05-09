@@ -4,6 +4,7 @@ excerpt: Рассмотрим несколько способов настрой
 keywords: i3wm, i3, раскладка клавиатуры, keyboard layout i3wm
 tags: i3wm linux Xorg
 slug: i3wm-keyboard-layout
+mainImage: /assets/articles/i3wm-keyboard-layout/i3wm-keyboard-layout.png
 ---
 
 <img alt="Логотип i3wm на пишущей машинке" src="/assets/articles/i3wm-keyboard-layout/i3wm-keyboard-layout.png"/>
