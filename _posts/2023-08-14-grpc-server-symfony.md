@@ -67,7 +67,7 @@ service UrlShortener {
 
 ### Установка symfony
 
-```bash
+```shell
 docker run -v `pwd`:/app -u $(id -u):$(id -g) \
   composer create-project symfony/skeleton url-shortener
 ```
@@ -90,7 +90,6 @@ RUN install-php-extensions bcmath intl opcache zip sockets grpc protobuf
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 CMD ["/app/bin/rr", "serve", "-d", "-c", "/app/.rr.yaml"]
-
 ```
 
 И следующий `docker-compose.yml`:
@@ -250,7 +249,6 @@ final class UrlShortenerService implements UrlShortenerInterface
         return 'https://examp.le/' . $randomStr;
     }
 }
-
 ```
 
 ### Клиентский код
@@ -364,7 +362,6 @@ final class ShortenUrlCliCommand extends Command
         return Command::SUCCESS;
     }
 }
-
 ```
 
 Запустим команду:
