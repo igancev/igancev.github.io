@@ -5,7 +5,7 @@ keywords: php, grpc, grpc server, roadrunner, symfony framework, docker, grpc с
 key: grpc-server-on-symfony
 tags: symfony grpc php roadrunner docker
 slug: grpc-server-on-symfony
-mainImage: /assets/articles/php-grpc-server/php-grpc-server.png
+mainImage: /assets/articles/symfony-grpc/symfony-grpc.png
 ---
 
 ![symfony + grpc = love](/assets/articles/symfony-grpc/symfony-grpc.png)
