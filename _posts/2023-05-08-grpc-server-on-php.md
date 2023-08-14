@@ -13,7 +13,7 @@ mainImage: /assets/articles/php-grpc-server/php-grpc-server.png
 Разберемся как приготовить gRPC сервер на PHP при том, что из коробки gRPC не предоставляет сервер под этот язык.
 В этом нам поможет небезызвестный Roadrunner, способный взять часть задач на себя
 
-Есть еще другая статья по теме, где пишем [gRPC сервер на Symfony](/2023-08-10-grpc-server-on-symfony).
+Есть еще другая статья по теме, где пишем [gRPC сервер на Symfony](/2023-08-14-grpc-server-on-symfony).
 {:.info}
 
 ## Предисловие
