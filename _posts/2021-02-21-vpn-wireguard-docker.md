@@ -13,7 +13,12 @@ mainImage: /assets/articles/vpn-wireguard-docker/wiredocker.png
 
 <!--more-->
 
-**UPD:** Ввиду возросшего спроса на VPN я написал статью с [упрощенной инструкцией для менее опытных пользователей](/2022-03-13-simple-and-fast-install-vpn-wireguard-docker),
+**UPD:** Есть более актуальный сетап [на протоколе VLESS + Reality](/2024-12-30-vless-reality-3x-ui-vpn),
+рекомендую рассмотреть его **вместо** Wireguard!
+{:.warning}
+
+
+**UPD:** Про настройку Wireguard есть статья с [упрощенной инструкцией для менее опытных пользователей](/2022-03-13-simple-and-fast-install-vpn-wireguard-docker),
 позволяющую с минимумом телодвижений сделать то же самое.
 {:.success}
 
